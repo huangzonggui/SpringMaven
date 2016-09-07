@@ -5,6 +5,12 @@ import com.imooc.ioc.injection.dao.InjectionDAO;
 public class InjectionServiceImpl implements InjectionService{
 
 	private InjectionDAO injectionDAO;
+
+	//构造器注入,这个injectionDAO对应的spring-injection.xml中的构造器constructor-org name
+	public InjectionServiceImpl(InjectionDAO injectionDAO){
+		this.injectionDAO=injectionDAO;
+	}
+
 	
 	//设值注入
 	public void setInjectionDAO(InjectionDAO injectionDAO) {
