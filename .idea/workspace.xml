@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b68abc3-0b89-4b5d-be8e-d5066134572b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/injection/dao/InjectionDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/injection/dao/InjectionDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/injection/service/InjectionService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/injection/service/InjectionServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/MyDriverManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/Store.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/StoreConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/StringStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/multibean/BeanImplOne.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/multibean/BeanImplTwo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/multibean/BeanInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/multibean/BeanInvoker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/test/beanannotation/TestInjection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/test/beanannotation/TestJavabased.java" />
+    <list default="true" id="1b68abc3-0b89-4b5d-be8e-d5066134572b" name="Default" comment="完成了Spring Bean">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/IntegerStore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/jsr/JsrDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/jsr/JsrService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/test/beanannotation/TestJsr.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringMaven.iml" afterPath="$PROJECT_DIR$/SpringMaven.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/StoreConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/StoreConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/imooc/test/beanannotation/TestJavabased.java" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/test/beanannotation/TestJavabased.java" />
     </list>
     <ignored path="SpringMaven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -4457,60 +4450,39 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="StoreConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/StoreConfig.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="TestJsr.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/test/beanannotation/TestJsr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="630">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringStore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/StringStore.java">
+      <file leaf-file-name="JsrService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/jsr/JsrService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="241">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestJavabased.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/test/beanannotation/TestJavabased.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnitTestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/test/base/UnitTestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="494">
+              <caret line="26" column="21" selection-start-line="22" selection-start-column="0" selection-end-line="26" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -4522,9 +4494,9 @@
       <list>
         <option value="Tag Library Descriptor" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="XML Properties File" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -4580,9 +4552,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/configDB.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/IntergeStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/jsr/JsrDAO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/imooc/test/beanannotation/TestJsr.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/imooc/test/beanannotation/TestJavabased.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/StoreConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/jsr/JsrService.java" />
       </list>
     </option>
   </component>
@@ -4597,6 +4573,11 @@
       <MavenGeneralSettings>
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -4632,7 +4613,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -4724,10 +4704,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -4815,33 +4791,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="injection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="jsr" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22988506" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -4859,7 +4822,111 @@
       <recent name="F:\Workspaces\SpringMaven\src\main\java\com\imooc\ioc\injection\service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestJavabased.testScope">
+  <component name="RunManager" selected="JUnit.TestJsr.testSave">
+    <configuration default="false" name="TestJavabased.testIntegerStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.test.beanannotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SpringMaven" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.imooc.test.beanannotation" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.test.beanannotation.TestJavabased" />
+      <option name="METHOD_NAME" value="testIntegerStore" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestJavabased.testStringStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.test.beanannotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SpringMaven" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.imooc.test.beanannotation" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.test.beanannotation.TestJavabased" />
+      <option name="METHOD_NAME" value="testStringStore" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestJavabased.testG" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.test.beanannotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SpringMaven" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.imooc.test.beanannotation" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.test.beanannotation.TestJavabased" />
+      <option name="METHOD_NAME" value="testG" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestJsr.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.test.beanannotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SpringMaven" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.imooc.test.beanannotation" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.test.beanannotation.TestJsr" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="false" name="TestInjection.testMultiBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -4874,110 +4941,6 @@
       <option name="MAIN_CLASS_NAME" value="com.imooc.test.beanannotation.TestInjection" />
       <option name="METHOD_NAME" value="testMultiBean" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestJavabased.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.test.beanannotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SpringMaven" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.test.beanannotation" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.test.beanannotation.TestJavabased" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestJavabased.testMyDriverManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.test.beanannotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SpringMaven" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.test.beanannotation" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.test.beanannotation.TestJavabased" />
-      <option name="METHOD_NAME" value="testMyDriverManager" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestJavabased.testScope" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.test.beanannotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SpringMaven" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.test.beanannotation" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.test.beanannotation.TestJavabased" />
-      <option name="METHOD_NAME" value="testScope" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestJavabased" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.test.beanannotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SpringMaven" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.test.beanannotation" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.test.beanannotation.TestJavabased" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -5184,6 +5147,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -5293,6 +5257,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -5309,19 +5279,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestInjection.testMultiBean" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestJavabased.test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestJavabased.testMyDriverManager" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestJavabased.testScope" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestJavabased" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestJavabased.testIntegerStore" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestJavabased.testStringStore" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestJavabased.testG" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestJsr.testSave" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestInjection.testMultiBean" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestJavabased.testScope" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestJavabased.testMyDriverManager" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestJavabased.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestJavabased" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestInjection.testMultiBean" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestJsr.testSave" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestInjection.testMultiBean" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestJavabased.testG" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestJavabased.testStringStore" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestJavabased.testIntegerStore" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -5341,7 +5311,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473254831840</updated>
-      <workItem from="1473254833550" duration="41101000" />
+      <workItem from="1473254833550" duration="45353000" />
+      <workItem from="1473504570126" duration="4721000" />
     </task>
     <task id="LOCAL-00001" summary="构造器注入">
       <created>1473266748522</created>
@@ -5368,50 +5339,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestJavabased_test - 2016.09.10 at 10h 33m 56s.xml">
-      <configuration name="TestJavabased.test" configurationId="JUnit" />
+    <history-entry file="TestInjection_testMultiBean - 2016.09.10 at 20h 54m 39s.xml">
+      <configuration name="TestInjection.testMultiBean" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJavabased_test - 2016.09.10 at 10h 38m 01s.xml">
-      <configuration name="TestJavabased.test" configurationId="JUnit" />
+    <history-entry file="TestInjection_testMultiBean - 2016.09.10 at 21h 02m 45s.xml">
+      <configuration name="TestInjection.testMultiBean" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJavabased_test - 2016.09.10 at 10h 45m 12s.xml">
-      <configuration name="TestJavabased.test" configurationId="JUnit" />
+    <history-entry file="TestJsr_testSave - 2016.09.10 at 20h 53m 18s.xml">
+      <configuration name="TestJsr.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJavabased_test - 2016.09.10 at 10h 50m 44s.xml">
-      <configuration name="TestJavabased.test" configurationId="JUnit" />
+    <history-entry file="TestJsr_testSave - 2016.09.10 at 21h 02m 57s.xml">
+      <configuration name="TestJsr.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJavabased_testMyDriverManager - 2016.09.10 at 10h 50m 54s.xml">
-      <configuration name="TestJavabased.testMyDriverManager" configurationId="JUnit" />
+    <history-entry file="TestJsr_testSave - 2016.09.10 at 21h 03m 14s.xml">
+      <configuration name="TestJsr.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJavabased_testScope - 2016.09.10 at 10h 51m 06s.xml">
-      <configuration name="TestJavabased.testScope" configurationId="JUnit" />
+    <history-entry file="TestJsr_testSave - 2016.09.10 at 21h 06m 23s.xml">
+      <configuration name="TestJsr.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJavabased_testScope - 2016.09.10 at 10h 51m 26s.xml">
-      <configuration name="TestJavabased.testScope" configurationId="JUnit" />
+    <history-entry file="TestJsr_testSave - 2016.09.10 at 21h 06m 50s.xml">
+      <configuration name="TestJsr.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJavabased_testScope - 2016.09.10 at 10h 52m 40s.xml">
-      <configuration name="TestJavabased.testScope" configurationId="JUnit" />
+    <history-entry file="TestJsr_testSave - 2016.09.10 at 21h 07m 26s.xml">
+      <configuration name="TestJsr.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJavabased_testScope - 2016.09.10 at 10h 54m 34s.xml">
-      <configuration name="TestJavabased.testScope" configurationId="JUnit" />
+    <history-entry file="TestJsr_testSave - 2016.09.10 at 21h 07m 59s.xml">
+      <configuration name="TestJsr.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJavabased_testScope - 2016.09.10 at 10h 55m 02s.xml">
-      <configuration name="TestJavabased.testScope" configurationId="JUnit" />
+    <history-entry file="TestJsr_testSave - 2016.09.10 at 21h 11m 56s.xml">
+      <configuration name="TestJsr.testSave" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41101000" />
+    <option name="totallyTimeSpent" value="50074000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1702" height="1072" extended-state="7" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1702" height="1072" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278302" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277512" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -5419,20 +5390,48 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2555693" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25496277" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39952153" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976415" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278302" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2555693" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -5449,234 +5448,20 @@
     <MESSAGE value="构造器注入" />
     <MESSAGE value="生命周期" />
     <MESSAGE value="bean装配" />
-    <option name="LAST_COMMIT_MESSAGE" value="bean装配" />
+    <MESSAGE value="完成了Spring Bean" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了Spring Bean" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc/injection/service/InjectionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc/injection/dao/InjectionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc/injection/dao/InjectionDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/ioc/injection/service/InjectionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="e#320#321#0" expanded="false" />
-            <element signature="e#357#358#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-lifeCycle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="3" column="204" selection-start-line="3" selection-start-column="204" selection-end-line="3" selection-end-column="204" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/test/lifeCycle/TestLifeCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#377#378#0" expanded="false" />
-            <element signature="e#433#434#0" expanded="false" />
-            <element signature="e#480#481#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/test/bean/TestBeanScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringMaven.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/lifeCycle/BeanLifeCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#798#799#0" expanded="false" />
-            <element signature="e#832#833#0" expanded="false" />
-            <element signature="e#889#890#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/aware/ApplicationAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/test/aware/TestAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#324#325#0" expanded="false" />
-            <element signature="e#375#376#0" expanded="false" />
-            <element signature="e#579#580#0" expanded="false" />
-            <element signature="e#667#668#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/aware/BeanName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aware.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-autowiring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/test/autowiring/TestAutoWiring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#386#387#0" expanded="false" />
-            <element signature="e#442#443#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="0" column="220" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3888" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/test/resource/TestResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#403#404#0" expanded="false" />
-            <element signature="e#457#458#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/test/beanannotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/BeanAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/injection/service/InjectionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/injection/dao/InjectionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-resource.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5684,15 +5469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-injection.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5700,7 +5476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5708,7 +5483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5716,7 +5490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5724,11 +5497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5736,10 +5504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="e#110#111#0" expanded="false" />
-            <element signature="e#178#179#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5755,7 +5519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5763,7 +5526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5775,19 +5537,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/test/beanannotation/TestInjection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-beanannotation.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5795,9 +5548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5805,51 +5555,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/asdf.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/configDB.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/asdf.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/configDB.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/multibean/BeanInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
           <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/Store.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5861,75 +5576,287 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/StringStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit/junit-4.10.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/StringStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="234">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="e#236#237#0" expanded="false" />
+            <element signature="e#290#291#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/IntegerStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/jsr/JsrDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#186#187#0" expanded="false" />
+            <element signature="e#239#240#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring/spring-core-4.0.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring/spring-context-4.0.5.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring/spring-beans-4.0.5.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring/spring-beans-4.0.5.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="451" column="0" selection-start-line="451" selection-start-column="0" selection-end-line="451" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring/spring-beans-4.0.5.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring/spring-beans-4.0.5.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring/spring-beans-4.0.5.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <element signature="e#8221#8714#0" expanded="true" />
+            <element signature="e#8713#8714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring/spring-beans-4.0.5.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="544" column="0" selection-start-line="544" selection-start-column="0" selection-end-line="544" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit/junit-4.10.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2953">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit/junit-4.10.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="176" column="43" selection-start-line="176" selection-start-column="43" selection-end-line="176" selection-end-column="43" />
+          <folding>
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#4445#4580#0" expanded="true" />
+            <element signature="e#4579#4580#0" expanded="true" />
+            <element signature="e#4820#4968#0" expanded="true" />
+            <element signature="e#4967#4968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit/junit-4.10.jar!/org/junit/internal/runners/statements/RunAfters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit/junit-4.10.jar!/org/junit/internal/runners/statements/RunBefores.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit/junit-4.10.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#841#1035#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/test/base/UnitTestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="136">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring/spring-context-4.0.5.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring/spring-context-4.0.5.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="240" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/test/beanannotation/TestInjection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/test/beanannotation/TestJavabased.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="368">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#1650#1651#0" expanded="true" />
+            <element signature="e#1722#1723#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/javabased/StoreConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="2226">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-injection.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/test/beanannotation/TestJsr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="21" selection-start-line="22" selection-start-column="0" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/beanannotation/jsr/JsrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
           </folding>
         </state>
       </provider>
