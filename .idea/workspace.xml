@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b68abc3-0b89-4b5d-be8e-d5066134572b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/aop/api/BizLogic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/aop/api/BizLogicImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/aop/api/MoocAfterReturningAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/aop/api/MoocBeforeAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/aop/api/MoocMethodInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/aop/api/MoocThrowsAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/aop/schema/advisors/ConcurrentOperationExecutor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/aop/schema/advisors/service/InvokeService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring-aop-api.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring-aop-schema-advisors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/test/aop/TestAOPAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/test/aop/TestAOPSchemaAdvisors.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpringMaven.iws" />
@@ -4531,8 +4519,8 @@
       <file leaf-file-name="spring-aop-api.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aop-api.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -5230,7 +5218,7 @@
       <workItem from="1473254833550" duration="45353000" />
       <workItem from="1473504570126" duration="7822000" />
       <workItem from="1473555221768" duration="19171000" />
-      <workItem from="1473583311240" duration="7126000" />
+      <workItem from="1473583311240" duration="8039000" />
     </task>
     <task id="LOCAL-00001" summary="构造器注入">
       <created>1473266748522</created>
@@ -5267,7 +5255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473573015326</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ProxyFactoryBean（不是很明白）">
+      <created>1473600635749</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1473600635749</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -5303,7 +5298,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79472000" />
+    <option name="totallyTimeSpent" value="80385000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -5391,7 +5386,8 @@
     <MESSAGE value="bean装配" />
     <MESSAGE value="完成了Spring Bean" />
     <MESSAGE value="aop" />
-    <option name="LAST_COMMIT_MESSAGE" value="aop" />
+    <MESSAGE value="ProxyFactoryBean（不是很明白）" />
+    <option name="LAST_COMMIT_MESSAGE" value="ProxyFactoryBean（不是很明白）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -5582,9 +5578,9 @@
         <state relative-caret-position="422">
           <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#434#435#0" expanded="false" />
+            <element signature="e#497#498#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -5725,7 +5721,7 @@
         <state relative-caret-position="374">
           <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -5818,8 +5814,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aop-api.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="462">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
           <folding />
         </state>
       </provider>
