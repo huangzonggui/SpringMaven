@@ -26,5 +26,6 @@
     <orderEntry type="library" name="commons-logging-1.1" level="project" />
     <orderEntry type="library" name="aspect" level="project" />
     <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
   </component>
 </module>
